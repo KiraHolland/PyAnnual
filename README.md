@@ -1,5 +1,5 @@
 # PyAnnual
-For annual layer identification and counting in glacier ice cores
+For annual layer identification and counting in glacier ice cores.
 
 Based on Matchmaker (https://www.iceandclimate.nbi.ku.dk/data), PyAnnual is a Python-based, streamlined package that aids in multi-parameter annual layer identification in glacier ice cores using seasonally varying geochemical and physical parameters–no coding required! Improves upon Matchmaker for annual layer identification by allowing for:
 	•	Easy editing of previously identified annual layer picks which can be uploaded and modified

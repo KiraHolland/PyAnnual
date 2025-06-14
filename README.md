@@ -19,7 +19,7 @@ PyAnnual is designed for annual layer counting only and does not allow for the d
 
 **4.** To upload previous picks, click “Load Picks” and navigate to .csv or .xlsx file. File must be formatted with the first column as an “ID” (e.g., a running number), and the second column as depth. If you have previously used PyAnnual for annual layer ID, the output file is formatted for re-upload.
    
-**5.** To save you selection, click “Save”.
+**5.** To save your selection, click “Save”.
 
 ## Options
 

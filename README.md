@@ -31,8 +31,8 @@ PyAnnual is designed for annual layer counting only and does not allow for the d
 * ‘max/min': Set y-lim of each paramater
 * '<– Core Up': Pans to the left (up core, or shallower)
 * 'Core Down –>': Pans to the right (down core, or deeper)
-* 'Uncertain: ON/OFF': Allows user to identify a pick as "uncertain" for later investigation or estimation of error. Plots pick as a grey line. Uploaded picks with "uncertain" picks will continue to plot grey. Certai n== 0, Uncertain == 1.
-* 'Save': Save all annual layer picks (uploaded or manually selected) as a .csv. "Source" defined as 1 == manually selected pick, 2 == uploaded pick.
+* 'Uncertain: ON/OFF': Allows user to identify a pick as "uncertain" for later investigation or estimation of error. Plots as grey line. Uploaded picks with "uncertain" picks will continue to plot grey. Indicated in ouput file as certain == 0, uncertain == 1.
+* 'Save': Save all annual layer picks (uploaded or manually selected) as a .csv. "Source" coded as 1 == (new) manually selected, 2 == uploaded.
 
 ## Inputs (must be updated in config.txt)
 

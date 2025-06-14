@@ -11,7 +11,7 @@ PyAnnual is designed for annual layer counting only and does not allow for the d
 
 ## Directions
 
-**1.** Update input variables (“fn_path”, “columns”, “species_names (optional)”) in config.txt and save file.
+**1.** Update input variables (“fn_path”, “columns”, “species_names (_optional_)”) in config.txt and save file.
    
 **2.** Run PyAnnual.py to initiate software with your continuous ice core data.
 
@@ -40,7 +40,7 @@ PyAnnual is designed for annual layer counting only and does not allow for the d
 
 **columns**:  A LIST of column (parameter) names (strings) that will be used in annual layer identification, starting with the DEPTH column.<br/>Ex: columns = ['depth_m', 'h2o2_uM', 'IP_0.8_10um_ug_g', 'nssS_ssNa', 'Na_ng_g', 'nh4_uM']
 
-**species_names** (* optional *): Names to be used in y-axis labelling (starting with DEPTH), otherwise, "columns" will be used.<br/>Ex: species_names = ['Depth', 'H2O2', 'Particles', 'nssS/ssNa', 'Na', 'NH4']
+**species_names** (_optional_): Names to be used in y-axis labelling (starting with DEPTH), otherwise, "columns" will be used.<br/>Ex: species_names = ['Depth', 'H2O2', 'Particles', 'nssS/ssNa', 'Na', 'NH4']
 
 ## Outputs (once saved)
     

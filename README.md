@@ -24,7 +24,7 @@ PyAnnual is designed for annual layer counting only and does not allow for the d
 ## Options
 
 * 'Min./Max.': Set x-lim range by inputting depth minimum and maximum, and click "Set"
-'Undo': control-z function
+* 'Undo': control-z function
 * 'Pan: OFF/ON': Allows for manual panning without inadvertently selecting a new pick
 * 'Load Picks': Upload previously identified annual layer picks. If previously uploaded  and updated with manual picks in a past session, previously uploaded picks will plot in blue, manually selected picks (from last session) will plot in purple, and uncertain picks will plot in grey.
 * 'Clear': Clears ALL manually selected picks

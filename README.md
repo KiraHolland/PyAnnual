@@ -38,7 +38,7 @@ PyAnnual is designed for annual layer counting only and does not allow for the d
 
 **fn_path**:  Pathname to geochemical database with core depth information (.xslx only)
 
-**columns**:  A LIST of column (parameter) names (strings) that will be used in annual layer identification, starting with the DEPTH column.<br/>Ex: columns = ['depth_m', 'h2o2_uM', 'IP_0.8_10um_ug_g', 'nssS_ssNa', 'Na_ng_g', 'nh4_uM']
+**columns**:  A LIST of column (parameter) names (strings) that will be used in annual layer identification, starting with the DEPTH column.<br/>Ex: columns = ['depth_m', 'h2o2_uM', 'IP_0.8_10um_ug_g', 'nssS_ssNa', 'Na_ng_g', 'nh4_uM', 'd18O_permil']
 
 **species_names** (_optional_): Names to be used in y-axis labelling (starting with DEPTH), otherwise, "columns" will be used.<br/>Ex: species_names = ['Depth', 'H2O2', 'Particles', 'nssS/ssNa', 'Na', 'NH4', u'$\\mathrm{\\delta}$$^{18}$O']
 

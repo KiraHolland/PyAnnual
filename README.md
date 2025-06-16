@@ -40,7 +40,7 @@ PyAnnual is designed for annual layer counting only and does not allow for the d
 
 **columns**:  A LIST of column (parameter) names (strings) that will be used in annual layer identification, starting with the DEPTH column.<br/>Ex: columns = ['depth_m', 'h2o2_uM', 'IP_0.8_10um_ug_g', 'nssS_ssNa', 'Na_ng_g', 'nh4_uM']
 
-**species_names** (_optional_): Names to be used in y-axis labelling (starting with DEPTH), otherwise, "columns" will be used.<br/>Ex: species_names = ['Depth', u'H$_{2}$O$_{2}$', 'Particles', 'nssS/ssNa', 'Na', u'NH$_{4}$', u'$\\mathrm{\\delta}$$^{18}$O']
+**species_names** (_optional_): Names to be used in y-axis labelling (starting with DEPTH), otherwise, "columns" will be used.<br/>Ex: species_names = ['Depth', 'H2O2', 'Particles', 'nssS/ssNa', 'Na', 'NH4', u'$\\mathrm{\\delta}$$^{18}$O']
 
 ## Outputs (once saved)
     
